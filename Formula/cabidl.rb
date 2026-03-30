@@ -1,26 +1,26 @@
 class Cabidl < Formula
   desc "Component Architecture Boundary and Interface Definition Language"
   homepage "https://github.com/scalebit-com/cabidl"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/scalebit-com/cabidl/releases/download/v0.6.0/cabidl-0.6.0-macos-arm64.tar.gz"
-      sha256 "894d04406c434bf5ae86d2e2317aff5576ab1164bdc69733272da739605f8fef"
+      url "https://github.com/scalebit-com/cabidl/releases/download/v0.7.0/cabidl-0.7.0-macos-arm64.tar.gz"
+      sha256 "25f38481cb69fe723057520f5a036531b0a1bc3115f12e2117e8c5317b5f0ed4"
     else
-      url "https://github.com/scalebit-com/cabidl/releases/download/v0.6.0/cabidl-0.6.0-macos-x86_64.tar.gz"
-      sha256 "62ac49a5d7f88b3e78091e6c218cfcb2ff07b89d8dbbee11d6180d8ba19a70e3"
+      url "https://github.com/scalebit-com/cabidl/releases/download/v0.7.0/cabidl-0.7.0-macos-x86_64.tar.gz"
+      sha256 "7ceba4e3b50a1441372e03ae82202eeb84a815756d8a19748b25bb8f7218669c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/scalebit-com/cabidl/releases/download/v0.6.0/cabidl-0.6.0-linux-arm64.tar.gz"
-      sha256 "9566abd944dc43172cb048093c897e6a3b04b60d6b32c0b87179af1f3da2ef74"
+      url "https://github.com/scalebit-com/cabidl/releases/download/v0.7.0/cabidl-0.7.0-linux-arm64.tar.gz"
+      sha256 "7cca7d09acf9d575b040e21e25debf3abd415525d38f30c18b54a43e1044067d"
     else
-      url "https://github.com/scalebit-com/cabidl/releases/download/v0.6.0/cabidl-0.6.0-linux-x86_64.tar.gz"
-      sha256 "a2a97da8a9d5221487ca0da41637206bab432184f8667fbe611f10faa70812ae"
+      url "https://github.com/scalebit-com/cabidl/releases/download/v0.7.0/cabidl-0.7.0-linux-x86_64.tar.gz"
+      sha256 "34946265ca984317611d1e4420c8d5d80ae3499f84b83b41b1354ae56a25d83d"
     end
   end
 
